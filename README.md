@@ -1,0 +1,5 @@
+This project showcases my data cleaning skills using SQL Server. I worked with a dataset containing information about company layoffs across different industries, countries, and time periods. The raw data included duplicate records, inconsistent text formatting, missing values, and incorrect data types. To clean the data, I first created a staging table from the original dataset to avoid altering the raw data directly.
+
+I used SQL techniques such as window functions to identify and remove duplicates. I standardized text columns by trimming unnecessary spaces and filled missing industry values by matching on company names. In some columns, values like 'null' were stored as strings instead of actual SQL NULLs, so I converted them accordingly. I also used SQL functions to convert the date column from text format to proper SQL DATE format.
+
+The final cleaned table is now consistent, reliable, and ready for analysis or use in dashboards. This project demonstrates my ability to write readable, efficient SQL code and apply practical data cleaning methods to real-world datasets.
